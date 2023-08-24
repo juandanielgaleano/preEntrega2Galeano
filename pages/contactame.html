@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Mi portfolio</title>    
+</head>
+<header class="header">
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <h1 class="titulo"><span class="color-n">Juan </span>Galeano</h1>
+            </a>
+            <button class="navbar-toggler" 
+                    type="button" 
+                    data-toggle="collapse" 
+                    data-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navDerecha navbar-nav text-center">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../pages/contactame.html">Contactame</a></li>                   
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<form class="formulario" action="">
+    <fieldset>
+        <legend>Contactanos</legend>
+        <div class="contenedorCampos">
+            <div class="campo">
+                <label for="nombre">Nombre <span>*</span></label>
+                <input type="text" placeholder="Tu email" id="nombre" required>
+            </div>
+            <div class="campo">
+                <label for="corre">Correo <span>*</span></label>
+                <input type="email" placeholder="Tu email" id="correo" required>
+            </div>
+            <div class="campo">
+                <label for="mensaje">Mensaje <span>*</span></label>
+                <textarea name="" id="mensaje" cols="30" rows="10"></textarea>
+            </div> 
+        </div>                    
+    </fieldset>
+    <div class="botonMain">
+        <input class="boton botonInput" type="submit" value="Enviar">
+    </div>
+</form>
+<body>
+</body>
+</html>

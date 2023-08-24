@@ -1,0 +1,51 @@
+.header {
+    top: 0;    
+    margin: 2rem auto;    
+    border: 2px solid rgb(6, 6, 6);
+    padding: 8px;      
+    left: 0;
+    width: 100%;
+    background-color: grey;  
+}
+
+.navigation {
+    list-style-type: none; 
+    text-align: center;
+    font-size: 0;
+}
+
+.navigation > ul li {
+    display: inline-block;
+    width: 20%;
+    position: relative;
+    width: 20%;
+    border: 2px solid rgb(6, 6, 6);
+    padding: 8px;
+    margin: 8px;
+}
+
+.navigation li a {
+    text-decoration: none;
+    font-size: 1.8rem;    
+    color: #0a0a0a;
+}
+
+.container{
+    text-decoration: none;
+    font-size: 1.8rem;    
+    color: #0a0a0a;
+}
+.row{
+    background-color: darkcyan;
+    color: white;
+}
+.formulario{
+    background-color: darkcyan;
+    color: white;
+}
+
+
+
+
+
+
