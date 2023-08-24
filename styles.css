@@ -1,33 +1,7 @@
-.header {
-    top: 0;    
-    margin: 2rem auto;    
+.header {    
     border: 2px solid rgb(6, 6, 6);
-    padding: 8px;      
-    left: 0;
-    width: 100%;
-    background-color: grey;  
-}
-
-.navigation {
-    list-style-type: none; 
-    text-align: center;
-    font-size: 0;
-}
-
-.navigation > ul li {
-    display: inline-block;
-    width: 20%;
-    position: relative;
-    width: 20%;
-    border: 2px solid rgb(6, 6, 6);
-    padding: 8px;
-    margin: 8px;
-}
-
-.navigation li a {
-    text-decoration: none;
-    font-size: 1.8rem;    
-    color: #0a0a0a;
+    padding: 1px;          
+    width: 100%;    
 }
 
 .container{
