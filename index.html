@@ -1,72 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Inica BS-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <!-- Fin BS-->
-    <link rel="stylesheet" href="styles.css">
-    <title>Mi portfolio</title>
-</head>
-<header class="header">
-    <nav class="navbar navbar-expand-md navbar-dark bg-primary" id="navbar">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <h1 class="titulo"><span class="color-n">Juan </span>Galeano</h1>
-            </a>
-            <button class="navbar-toggler" 
-                    type="button" 
-                    data-toggle="collapse" 
-                    data-target="#navbarSupportedContent" 
-                    aria-controls="navbarSupportedContent" 
-                    aria-expanded="false" 
-                    aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navDerecha navbar-nav text-center">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="pages/contactame.html">Contactame</a></li>                   
-                </ul>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>portfolio</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+    <body class="bg-products">
+    <nav class="navbar">
+        <div class="content">
+        <div class="logo"><a href="#">Juan Galeano</a></div>
+        <ul class="menu-list">
+            <div class="icon cancel-btn">
+            <i class="fas fa-times"></i>
             </div>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="pages/proyectos.html">Proyectos</a></li>
+            <li><a href="pages/tecnologias.html">Tecnologias</a></li>
+            <li><a href="pages/sobremi.html">Sobre mi</a></li>
+            <li><a href="pages/contactame.html">Contactame</a></li>
+        </ul>
+        <div class="icon menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
         </div>
     </nav>
-</header>
-<body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-4"></div>
-            <img src="images/imagesQA.jpg" alt="factores QA" class="img-fluid">            
-        </div>
-    </div>
-    <div class="row">           
-        <div class="color1 col-xs-12 col-sm-6 col-md-3">
-            <h3>Tecnologias con las que trabajo</h3>            
-        </div>
-    <section class="color0 container-fluid">        
-              <div class="row">
-                   <div class="col-xs-12 col-sm-6 col-md-4">
-                       <h2 class="text-left">Jenkins</h2>
-                       <img src="images/jenkins.png" alt="jenkins" class="img-fluid">
-                       <p>Jenkins es un servidor open source para la integración continua. Es una herramienta que se utiliza para compilar y probar proyectos de software de forma continua, lo que facilita a los desarrolladores integrar cambios en un proyecto y entregar nuevas versiones a los usuarios. Escrito en Java, es multiplataforma y accesible mediante interfaz web. Es el software más utilizado en la actualidad para este propósito.</p>
-                   </div>
-                   <div class="col-xs-12 col-sm-6 col-md-4">
-                       <h2 class="text-left">Java</h2>
-                       <img src="images/java.png" alt="java" class="img-fluid">
-                       <p>Java es una plataforma informática de lenguaje de programación creada por Sun Microsystems en 1995. Ha evolucionado desde sus humildes comienzos hasta impulsar una gran parte del mundo digital actual, ya que es una plataforma fiable en la que se crean muchos servicios y aplicaciones. Los nuevos e innovadores productos y servicios digitales diseñados para el futuro también siguen basándose en Java.</p>
-                   </div>
-                   <div class="col-xs-12 col-sm-12 col-md-4">
-                       <h2 class="text-left">Python</h2>
-                       <img src="images/python.png" alt="python" class="img-fluid">
-                       <p class="text-justify">Python es un lenguaje de programación ampliamente utilizado en las aplicaciones web, el desarrollo de software, la ciencia de datos y el machine learning (ML). Los desarrolladores utilizan Python porque es eficiente y fácil de aprender, además de que se puede ejecutar en muchas plataformas diferentes.</p>
-                   </div>        
-               </div>
-     </section>
-</body>
+    <div class="banner"></div>
+    <script src="js/app.js"></script>
+    </body>
 </html>
