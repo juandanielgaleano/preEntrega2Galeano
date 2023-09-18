@@ -6,18 +6,15 @@
   background-position: center;
   background-size: cover;
 }
-
 #footer .footer-container {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
-
 #footer .footer-container i:hover {
   color: #00ff00;
   cursor: pointer;
 }
-
 #footer .footer-container .logo-container, #footer .footer-container .info, #footer .footer-container .contact {
   display: flex;
   justify-content: center;
@@ -26,44 +23,36 @@
   flex: 1 0 25rem;
   flex-flow: column wrap;
 }
-
 #footer .footer-container .logo-container {
   text-align: center;
 }
-
 #footer .footer-container .logo-container .icons i {
   font-size: 3rem;
   margin: 2rem;
 }
-
 #footer .footer-container .logo-container .logo h1 {
   font-size: 5rem;
   text-transform: capitalize;
 }
-
 #footer .footer-container .info i {
   margin: 2rem 0;
   font-size: 3rem;
 }
-
 #footer .footer-container .info i::after {
   content: attr(data-text);
   font-size: 2rem;
   margin: 0 2rem;
   font-family: arial;
 }
-
 #footer .footer-container .contact h1 {
   margin: 1rem 0;
   font-size: 3rem;
   text-transform: capitalize;
 }
-
 #footer .footer-container .contact p {
   margin: 0.5rem 0;
   font-size: 1.5rem;
 }
-
 #footer .footer-container .contact input[type=email] {
   outline: none;
   border: none;
@@ -73,7 +62,6 @@
   color: #fff;
   text-transform: lowercase;
 }
-
 #footer .footer-container .contact input[type=submit] {
   outline: none;
   border: none;
@@ -84,15 +72,12 @@
   margin: 2rem 0;
   cursor: pointer;
 }
-
 #footer .footer-container .contact input[type=submit]:hover {
   background: rgba(255, 255, 255, 0.2);
 }
-
 #footer .text {
   width: 100%;
 }
-
 #footer .text h1 {
   font-size: 1.2rem;
   padding: 1rem 0;
@@ -117,7 +102,6 @@
   height: 100vh;
   width: 100vh;
 }
-
 .content h1 {
   font-size: 2rem;
 }
@@ -162,6 +146,4 @@ body {
     flex: 100%;
     max-width: 100%;
   }
-} 
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
